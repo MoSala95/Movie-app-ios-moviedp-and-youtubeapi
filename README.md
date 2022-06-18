@@ -1,5 +1,5 @@
 # Movie-app-ios-moviedp-and-youtubeapi
-this is app integrates The movie db api and youtube api .
+this app integrates The movie db api and youtube api .
 please generate your key for movie dp 
 [https://www.themoviedb.org/
 ](https://www.themoviedb.org/documentation/api)
