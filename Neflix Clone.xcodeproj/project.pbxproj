@@ -7,23 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F40365E2285E4AB5007A1948 /* TitleDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40365E1285E4AB5007A1948 /* TitleDetailsViewController.swift */; };
+		F40365E4285E4FCF007A1948 /* YoutubeResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40365E3285E4FCF007A1948 /* YoutubeResponseModel.swift */; };
+		F437DAD0284BDA92000A2F93 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = F437DACF284BDA92000A2F93 /* APICaller.swift */; };
+		F437DAD2284BE3AE000A2F93 /* TrendingMovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F437DAD1284BE3AE000A2F93 /* TrendingMovieModel.swift */; };
+		F464713D285CC4630086BD56 /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F464713C285CC4630086BD56 /* SearchResultViewController.swift */; };
+		F49C3BF72852445A00CCBE9D /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49C3BF62852445A00CCBE9D /* TitleTableViewCell.swift */; };
+		F4B08AF2284A482400EBC173 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B08AF1284A482400EBC173 /* HomeViewController.swift */; };
+		F4B08AF4284A484C00EBC173 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B08AF3284A484C00EBC173 /* UpcomingViewController.swift */; };
+		F4B08AF6284A485E00EBC173 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B08AF5284A485E00EBC173 /* SearchViewController.swift */; };
+		F4B08AF8284A487000EBC173 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B08AF7284A487000EBC173 /* DownloadsViewController.swift */; };
+		F4B08AFF284AA7E400EBC173 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B08AFE284AA7E400EBC173 /* CollectionViewTableViewCell.swift */; };
+		F4B08B01284AB4FB00EBC173 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B08B00284AB4FB00EBC173 /* HeroHeaderUIView.swift */; };
 		F4D177EE2843D10C0091691D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D177ED2843D10C0091691D /* AppDelegate.swift */; };
 		F4D177F02843D10C0091691D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D177EF2843D10C0091691D /* SceneDelegate.swift */; };
-		F4D177F22843D10C0091691D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D177F12843D10C0091691D /* ViewController.swift */; };
-		F4D177F52843D10C0091691D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D177F32843D10C0091691D /* Main.storyboard */; };
+		F4D177F22843D10C0091691D /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4D177F12843D10C0091691D /* MainTabBarViewController.swift */; };
 		F4D177F72843D10D0091691D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4D177F62843D10D0091691D /* Assets.xcassets */; };
 		F4D177FA2843D10D0091691D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4D177F82843D10D0091691D /* LaunchScreen.storyboard */; };
+		F4E1BC8A285F8002003E071A /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = F4E1BC89285F8002003E071A /* MBProgressHUD */; };
+		F4EFD29E2850D3350011CD3B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EFD29D2850D3350011CD3B /* Extensions.swift */; };
+		F4EFD2A12850FDD40011CD3B /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = F4EFD2A02850FDD40011CD3B /* SDWebImage */; };
+		F4EFD2A32850FDD40011CD3B /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F4EFD2A22850FDD40011CD3B /* SDWebImageMapKit */; };
+		F4EFD2A52851221B0011CD3B /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EFD2A42851221B0011CD3B /* TitleCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F40365E1285E4AB5007A1948 /* TitleDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleDetailsViewController.swift; sourceTree = "<group>"; };
+		F40365E3285E4FCF007A1948 /* YoutubeResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeResponseModel.swift; sourceTree = "<group>"; };
+		F437DACF284BDA92000A2F93 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		F437DAD1284BE3AE000A2F93 /* TrendingMovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingMovieModel.swift; sourceTree = "<group>"; };
+		F464713C285CC4630086BD56 /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		F49C3BF62852445A00CCBE9D /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		F4B08AF1284A482400EBC173 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F4B08AF3284A484C00EBC173 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		F4B08AF5284A485E00EBC173 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		F4B08AF7284A487000EBC173 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		F4B08AFE284AA7E400EBC173 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		F4B08B00284AB4FB00EBC173 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		F4D177EA2843D10C0091691D /* Neflix Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neflix Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4D177ED2843D10C0091691D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4D177EF2843D10C0091691D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F4D177F12843D10C0091691D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F4D177F42843D10C0091691D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4D177F12843D10C0091691D /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		F4D177F62843D10D0091691D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4D177F92843D10D0091691D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4D177FB2843D10D0091691D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4EFD29D2850D3350011CD3B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F4EFD2A42851221B0011CD3B /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +60,87 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4E1BC8A285F8002003E071A /* MBProgressHUD in Frameworks */,
+				F4EFD2A32850FDD40011CD3B /* SDWebImageMapKit in Frameworks */,
+				F4EFD2A12850FDD40011CD3B /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F4647138285CC3E00086BD56 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				F4B08AF1284A482400EBC173 /* HomeViewController.swift */,
+				F4B08AF3284A484C00EBC173 /* UpcomingViewController.swift */,
+				F4B08AF5284A485E00EBC173 /* SearchViewController.swift */,
+				F4B08AF7284A487000EBC173 /* DownloadsViewController.swift */,
+				F40365E1285E4AB5007A1948 /* TitleDetailsViewController.swift */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		F4647139285CC3FA0086BD56 /* general */ = {
+			isa = PBXGroup;
+			children = (
+				F464713C285CC4630086BD56 /* SearchResultViewController.swift */,
+			);
+			path = general;
+			sourceTree = "<group>";
+		};
+		F4B08AF0284A47FC00EBC173 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F4647139285CC3FA0086BD56 /* general */,
+				F4647138285CC3E00086BD56 /* core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F4B08AF9284AA72800EBC173 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F437DAD1284BE3AE000A2F93 /* TrendingMovieModel.swift */,
+				F40365E3285E4FCF007A1948 /* YoutubeResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F4B08AFA284AA73000EBC173 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F4B08AFB284AA74300EBC173 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F4B08AFE284AA7E400EBC173 /* CollectionViewTableViewCell.swift */,
+				F4B08B00284AB4FB00EBC173 /* HeroHeaderUIView.swift */,
+				F4EFD2A42851221B0011CD3B /* TitleCollectionViewCell.swift */,
+				F49C3BF62852445A00CCBE9D /* TitleTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F4B08AFC284AA77400EBC173 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F437DACF284BDA92000A2F93 /* APICaller.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F4B08AFD284AA77D00EBC173 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F4EFD29D2850D3350011CD3B /* Extensions.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		F4D177E12843D10C0091691D = {
 			isa = PBXGroup;
 			children = (
@@ -56,10 +160,15 @@
 		F4D177EC2843D10C0091691D /* Neflix Clone */ = {
 			isa = PBXGroup;
 			children = (
+				F4B08AFC284AA77400EBC173 /* Managers */,
+				F4B08AFD284AA77D00EBC173 /* Resources */,
+				F4B08AF9284AA72800EBC173 /* Models */,
+				F4B08AFB284AA74300EBC173 /* Views */,
+				F4B08AFA284AA73000EBC173 /* ViewModels */,
+				F4B08AF0284A47FC00EBC173 /* Controllers */,
 				F4D177ED2843D10C0091691D /* AppDelegate.swift */,
 				F4D177EF2843D10C0091691D /* SceneDelegate.swift */,
-				F4D177F12843D10C0091691D /* ViewController.swift */,
-				F4D177F32843D10C0091691D /* Main.storyboard */,
+				F4D177F12843D10C0091691D /* MainTabBarViewController.swift */,
 				F4D177F62843D10D0091691D /* Assets.xcassets */,
 				F4D177F82843D10D0091691D /* LaunchScreen.storyboard */,
 				F4D177FB2843D10D0091691D /* Info.plist */,
@@ -83,6 +192,11 @@
 			dependencies = (
 			);
 			name = "Neflix Clone";
+			packageProductDependencies = (
+				F4EFD2A02850FDD40011CD3B /* SDWebImage */,
+				F4EFD2A22850FDD40011CD3B /* SDWebImageMapKit */,
+				F4E1BC89285F8002003E071A /* MBProgressHUD */,
+			);
 			productName = "Neflix Clone";
 			productReference = F4D177EA2843D10C0091691D /* Neflix Clone.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +225,10 @@
 				Base,
 			);
 			mainGroup = F4D177E12843D10C0091691D;
+			packageReferences = (
+				F4EFD29F2850FDD40011CD3B /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				F4E1BC88285F8002003E071A /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
+			);
 			productRefGroup = F4D177EB2843D10C0091691D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +245,6 @@
 			files = (
 				F4D177FA2843D10D0091691D /* LaunchScreen.storyboard in Resources */,
 				F4D177F72843D10D0091691D /* Assets.xcassets in Resources */,
-				F4D177F52843D10C0091691D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +255,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4D177F22843D10C0091691D /* ViewController.swift in Sources */,
+				F4B08AF6284A485E00EBC173 /* SearchViewController.swift in Sources */,
+				F40365E4285E4FCF007A1948 /* YoutubeResponseModel.swift in Sources */,
+				F4EFD2A52851221B0011CD3B /* TitleCollectionViewCell.swift in Sources */,
+				F4D177F22843D10C0091691D /* MainTabBarViewController.swift in Sources */,
+				F49C3BF72852445A00CCBE9D /* TitleTableViewCell.swift in Sources */,
+				F40365E2285E4AB5007A1948 /* TitleDetailsViewController.swift in Sources */,
+				F4B08AFF284AA7E400EBC173 /* CollectionViewTableViewCell.swift in Sources */,
+				F437DAD0284BDA92000A2F93 /* APICaller.swift in Sources */,
+				F4B08B01284AB4FB00EBC173 /* HeroHeaderUIView.swift in Sources */,
+				F464713D285CC4630086BD56 /* SearchResultViewController.swift in Sources */,
+				F437DAD2284BE3AE000A2F93 /* TrendingMovieModel.swift in Sources */,
+				F4B08AF8284A487000EBC173 /* DownloadsViewController.swift in Sources */,
+				F4EFD29E2850D3350011CD3B /* Extensions.swift in Sources */,
 				F4D177EE2843D10C0091691D /* AppDelegate.swift in Sources */,
 				F4D177F02843D10C0091691D /* SceneDelegate.swift in Sources */,
+				F4B08AF4284A484C00EBC173 /* UpcomingViewController.swift in Sources */,
+				F4B08AF2284A482400EBC173 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F4D177F32843D10C0091691D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F4D177F42843D10C0091691D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F4D177F82843D10D0091691D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -294,7 +417,6 @@
 				INFOPLIST_FILE = "Neflix Clone/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +444,6 @@
 				INFOPLIST_FILE = "Neflix Clone/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -360,6 +481,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F4E1BC88285F8002003E071A /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdg/MBProgressHUD";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		F4EFD29F2850FDD40011CD3B /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F4E1BC89285F8002003E071A /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4E1BC88285F8002003E071A /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
+		};
+		F4EFD2A02850FDD40011CD3B /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4EFD29F2850FDD40011CD3B /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		F4EFD2A22850FDD40011CD3B /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4EFD29F2850FDD40011CD3B /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F4D177E22843D10C0091691D /* Project object */;
 }
